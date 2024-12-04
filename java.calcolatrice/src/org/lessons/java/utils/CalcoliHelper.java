@@ -31,6 +31,20 @@ public class CalcoliHelper {
         return primoValore * secondoValore;
     }
 
+    public static int assoluto(int primoValore) {
+        if(primoValore<0){
+            return primoValore * -1;
+        }
+        return primoValore ;
+    }
+
+    public static double assoluto(double primoValore) {
+        if(primoValore<0){
+            return primoValore * -1;
+        }
+        return primoValore ;
+    }
+
     
 
 }
