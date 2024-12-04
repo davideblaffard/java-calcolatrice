@@ -14,4 +14,23 @@ public class CalcoliHelper {
     public static double somma(double primoValore, double secondoValore) {
         return primoValore + secondoValore;
     }
+
+    public static int differenza(int primoValore, int secondoValore) {
+        return primoValore - secondoValore;
+    }
+
+    public static double differenza(double primoValore, double secondoValore) {
+        return primoValore - secondoValore;
+    }
+
+    public static int prodotto(int primoValore, int secondoValore) {
+        return primoValore * secondoValore;
+    }
+
+    public static double prodotto(double primoValore, double secondoValore) {
+        return primoValore * secondoValore;
+    }
+
+    
+
 }
