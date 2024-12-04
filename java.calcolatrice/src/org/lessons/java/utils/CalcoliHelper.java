@@ -45,6 +45,32 @@ public class CalcoliHelper {
         return primoValore ;
     }
 
+    public static int massimo(int primoValore, int secondoValore) {
+        if(primoValore>secondoValore){
+            return primoValore;
+        }
+        return secondoValore ;
+    }
     
+    public static double massimo(double primoValore, double secondoValore){
+        if(primoValore>secondoValore){
+            return primoValore;
+        }
+        return secondoValore;
+    }
+
+    public static int minimo(int primoValore, int secondoValore) {
+        if(primoValore<secondoValore){
+            return primoValore;
+        }
+        return secondoValore ;
+    }
+    
+    public static double minimo(double primoValore, double secondoValore){
+        if(primoValore<secondoValore){
+            return primoValore;
+        }
+        return secondoValore;
+    }
 
 }
